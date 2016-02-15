@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Package name="PapperPython" format_version="4">
+<Package name="HtmlSample" format_version="4">
     <Manifest src="manifest.xml" />
     <BehaviorDescriptions>
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
@@ -8,10 +8,6 @@
     <Resources />
     <Topics />
     <IgnoredPaths>
-        <Path src=".git/objects" />
-        <Path src=".git/refs" />
-        <Path src=".git/hooks" />
-        <Path src=".git/info" />
         <Path src=".metadata" />
     </IgnoredPaths>
 </Package>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package version="0.0.0" uuid="papperpython-91b9f2">
+<package version="0.0.0" uuid="htmlsample-91f86b">
  <names>
-  <name lang="en_US">PapperPython</name>
+  <name lang="en_US">HtmlSample</name>
  </names>
  <supportedLanguages>
   <language>en_US</language>

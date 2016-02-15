@@ -91,17 +91,26 @@
         self.logger.info("[ConsoleMessage] %s" % message)
 
     def onInput_onStop(self):
+
+        self.log("表示させたいログメッセージ")
+        self.logger.fatal("表示させたいログメッセージ")
+        self.logger.error("表示させたいログメッセージ")
+        self.logger.warning("表示させたいログメッセージ")
+        self.logger.info("表示させたいログメッセージ")
+        self.logger.debug("表示させたいログメッセージ")
+
         self.consoleConnectId = None
 
-        self.logger.info('a')
         # コンソールの監視終了
         if self.consoleConnectId:
             try:
                 self._getTabletService().onConsoleMessage.disconnect(self.consoleConnectId)
+                self.logger.info("a")
                 self.consoleConnectId = None
             except Exception as e:
                 self.logger.error(e)
 
+        self.logger.info("test test")
         self.calc_func(10, 20)
         #self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
         self.onStopped() #activate the output of the box]]>
