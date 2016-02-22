@@ -5,9 +5,12 @@
         <BehaviorDescription name="behavior" src="behavior_1" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
-    <Resources />
+    <Resources>
+        <File name="index" src="html/index.html" />
+    </Resources>
     <Topics />
     <IgnoredPaths>
+        <Path src="html/.index.html.swp" />
         <Path src=".metadata" />
     </IgnoredPaths>
 </Package>
